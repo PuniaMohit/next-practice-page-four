@@ -1,11 +1,13 @@
 import React from 'react';
+import logo from "../../assets/logo.png"
+import Image from 'next/image';
 
 const Header: React.FC = () => {
   return (
     <header className="bg-white flex items-center justify-between p-4 sticky top-0 z-10">
       <div className="flex items-center w-full">
-        <img
-          src="https://directory.seekahost.com/storage/uploads/businesses/logos/2020-06-18_Q1SawsATxEMlKD8wBj7t6Puh2gLt47xE.png"
+        <Image
+          src={logo}
           alt="Logo"
           className="w-20 h-20"
         />

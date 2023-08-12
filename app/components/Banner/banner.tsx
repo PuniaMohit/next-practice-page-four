@@ -1,12 +1,12 @@
 import React from "react";
+import asiaBusinessImage from "../../assets/Asia-business-meetings.jpg";
 
 const Banner: React.FC = () => {
   return (
     <div
       className="w-full h-4/5 bg-cover bg-center flex justify-center items-center text-white"
       style={{
-        backgroundImage:
-          'url("https://www.hrinasia.com/wp-content/uploads/2017/05/Asia-business-meetings.jpg")',
+        backgroundImage: `url('/Asia-business-meetings.jpg')`,
       }}
     >
       <div
