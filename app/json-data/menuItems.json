@@ -1,0 +1,12 @@
+[
+  { "label": "Home", "link": "/" },
+  { "label": "About Us", "link": "/about-us" },
+  { "label": "Software Development", "link": "/software-development" },
+  { "label": "Managed Services", "link": "/managed-services" },
+  { "label": "Consulting", "link": "/consulting" },
+  {
+    "label": "Contact Us",
+    "link": "/contact-us",
+    "className": "bg-blue-200 text-white"
+  }
+]
