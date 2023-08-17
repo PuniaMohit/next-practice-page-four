@@ -3,6 +3,7 @@ import Image from "next/image";
 import logo from "../../assets/logo.png";
 import menuItems from "../../json-data/menuItems.json";
 import HamburgerIcon from "@/app/assets/svg/HamburgerIcon";
+import "./desktopMenu.css"
 
 interface DesktopMenuProps {
   mobileView: boolean;
@@ -31,7 +32,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = (props) => {
       >
         <HamburgerIcon />
       </div>
-      <div className="sm:visible xs:invisible md:flex gap-4">
+      <div className="gap-4 menu-items">
         {menuItems.map((menuItem: MenuItem, index: number) => (
           <div
             key={index}
