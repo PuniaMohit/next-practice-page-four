@@ -34,7 +34,7 @@ const Content: React.FC = () => {
         </div>
         <div>
           <div className="text-black my-10 text-5xl">What we do</div>
-          <div className="grid grid-rows-9 grid-flow-col grid-cols-3 gap-2">
+          <div className="sm:grid grid-rows-9 grid-flow-col grid-cols-3 gap-2">
             <div className="bg-orange-600 row-span-4 px-10 py-10">
               <div className="text-3xl">Consultation</div>
               <div className="mt-10 text-xl">
