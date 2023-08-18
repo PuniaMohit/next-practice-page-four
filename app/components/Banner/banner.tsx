@@ -1,5 +1,5 @@
 import React from "react";
-import asiaBusinessImage from "../../assets/Asia-business-meetings.jpg";
+import "./banner.css";
 
 const Banner: React.FC = () => {
   return (
@@ -9,16 +9,13 @@ const Banner: React.FC = () => {
         backgroundImage: `url('/Asia-business-meetings.jpg')`,
       }}
     >
-      <div
-        className=" flex flex-col items-center mt-10 mb-10"
-        style={{ marginTop: "100px", marginBottom: "100px" }}
-      >
+      <div className=" flex flex-col items-center mt-5 mb-5">
         <div className="flex items-center mt-10 mb-10">
-          <h1 className="text-9xl font-bold mr-2">WE</h1>
+          <h1 className="we-font font-bold mr-2">WE</h1>
           <div className="flex flex-col">
-            <span className="text-3xl">INNOVATE</span>
-            <span className="text-3xl">ASSOCIATE</span>
-            <span className="text-3xl">INSPIRE</span>
+            <span className="text-6xl">INNOVATE</span>
+            <span className="text-6xl">ASSOCIATE</span>
+            <span className="text-6xl">INSPIRE</span>
           </div>
         </div>
       </div>
