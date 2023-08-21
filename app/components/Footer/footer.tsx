@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="mt-4 text-base">
           We offer businesses the technologies they need to become successful
-          businesses in today's world.
+          businesses in today world.
         </div>
       </div>
       <div>
