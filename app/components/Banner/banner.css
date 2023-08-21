@@ -1,3 +1,13 @@
-.we-font{
-    font-size: 15rem;
+@media only screen and (min-width: 768px) {
+    .we-font {
+        font-size: 15rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .we-font {
+        font-size: 7rem
+    }
+
 }

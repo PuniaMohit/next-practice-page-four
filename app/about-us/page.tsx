@@ -1,36 +1,39 @@
 import Image from "next/image";
 import UnkownIcon from "../assets/svg/UnknownIcon";
+import "./about-us.css"
 
 const Page: React.FC = () => {
   return (
     <div className="bg-white">
       <div
-        className="h-4/5 bg-cover bg-center flex justify-center items-center text-white"
+        className="w-full h-4/5 bg-cover bg-center flex justify-center items-center text-white"
         style={{
           backgroundImage: `url('/Asia-business-meetings.jpg')`,
         }}
       >
         <div
-          className="mt-10 mb-10"
-          style={{ marginTop: "200px", marginBottom: "200px" }}
+          className="sm:mt-10 sm:mb-10 xs:mt-0 xs:mb-0"
+          style={{ marginTop: "100px", marginBottom: "100px" }}
         >
-          <div className="text-3xl ml-5 w-4/12">
+          <div className="text-3xl ml-5 w-4/12 font-bold">
             Providing The Best I.T. Solutions
           </div>
           <div className="text-xl ml-5 w-4/12">
-            Founded in 2023 in India, we provide end-to-end services that help businesses bring their technology vision to life and achieve their goals.
+            Founded in 2023 in India, we provide end-to-end services that help
+            businesses bring their technology vision to life and achieve their
+            goals.
           </div>
         </div>
       </div>
-      <div className="px-20 pt-20">
+      <div className="sm:px-20 xs:px-5 pt-20">
         <div className="sm:flex text-black">
-          <div className="xmd:grid grid-cols-2 gap-2 sm:w-2/5">
-            <div className="row-span-2 ">
+          <div className="slg:grid grid-cols-2 gap-2 sm:w-2/5">
+            <div className="row-span-2">
               <Image
                 src="/office.jpg"
                 width={500}
                 height={100}
-                style={{ height: "600px" }}
+                className="first-image"
                 alt="Picture"
               />
             </div>
@@ -39,16 +42,16 @@ const Page: React.FC = () => {
                 src="/office.jpg"
                 width={500}
                 height={100}
-                style={{ height: "300px" }}
+                className="second-image"
                 alt="Picture"
               />
             </div>
             <div className="">
               <Image
                 src="/office.jpg"
+                className="third-image"
                 width={500}
                 height={100}
-                style={{ height: "300px" }}
                 alt="Picture"
               />
             </div>
@@ -106,9 +109,11 @@ const Page: React.FC = () => {
           </div>
         </div>
         <div>
-          <div className="text-3xl my-10 text-black">Our Values</div>
+          <div className="text-3xl my-10 text-black xs:text-center xm:text-left">
+            Our Values
+          </div>
           <div className="sm:flex sm:flex-wrap xmd:flex-nowrap">
-            <div className="bg-sky-500 py-10 px-10 ml-2">
+            <div className="bg-sky-500 py-10 sm:px-10 xs:px-5 ml-2">
               <div className="mb-7">
                 <UnkownIcon />
               </div>
@@ -118,7 +123,7 @@ const Page: React.FC = () => {
                 delivering premium quialtiy results
               </div>
             </div>
-            <div className="bg-blue-500 py-10 px-10 ml-2">
+            <div className="bg-blue-500 py-10 sm:px-10 xs:px-5 ml-2">
               <div className="mb-7">
                 <UnkownIcon />
               </div>
@@ -128,7 +133,7 @@ const Page: React.FC = () => {
                 solutions, transforming your ideas into tangible reality.
               </div>
             </div>
-            <div className="bg-sky-500 py-10 px-10 ml-2">
+            <div className="bg-sky-500 py-10 sm:px-10 xs:px-5 ml-2">
               <div className="mb-7">
                 <UnkownIcon />
               </div>
@@ -138,7 +143,7 @@ const Page: React.FC = () => {
                 business teams ensures we meet your goals
               </div>
             </div>
-            <div className="bg-blue-500 py-10 px-10 ml-2">
+            <div className="bg-blue-500 py-10 sm:px-10 xs:px-5 ml-2">
               <div className="mb-7">
                 <UnkownIcon />
               </div>
@@ -151,7 +156,7 @@ const Page: React.FC = () => {
           </div>
         </div>
         <div className="text-black">
-          <div className="text-3xl my-10 text-black">Our Values</div>
+          <div className="text-3xl my-10 text-black">Meet Our Leadership</div>
           <div className="sm:flex pb-10">
             <div className="border-b-sky-500">
               <Image src="/office.jpg" width={500} height={100} alt="Picture" />

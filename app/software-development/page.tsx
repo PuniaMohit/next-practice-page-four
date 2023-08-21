@@ -12,13 +12,14 @@ const Page: React.FC = () => {
       >
         <div
           className="mt-10 mb-10"
-          style={{ marginTop: "200px", marginBottom: "200px" }}
+          style={{ marginTop: "100px", marginBottom: "100px" }}
         >
-          <div className="text-3xl ml-5 w-4/12">
-            Managed Services
+          <div className="text-5xl ml-5 mb-5 w-4/12 font-bold">
+            Software development
           </div>
           <div className="text-xl ml-5 w-4/12">
-            We outsourced IT services for protective management and maintainance of technology infrastructure.
+            Our proficiency lies in customized software engineering,
+            specifically designed to meet your unqiue requirements.
           </div>
         </div>
       </div>

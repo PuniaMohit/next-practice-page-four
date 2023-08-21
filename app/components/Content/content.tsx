@@ -8,7 +8,7 @@ const Content: React.FC = () => {
     <div className="bg-white pt-10">
       <div className="mx-5">
         <div
-          className="md:flex xs:flex-none items-center px-12"
+          className="md:flex xs:flex-none items-center sm:px-12 xs:px-0 xs:text-center sm:text-left"
           style={{ justifyContent: "space-evenly" }}
         >
           <div className="px-12 leading-8	">
@@ -19,7 +19,7 @@ const Content: React.FC = () => {
               achieve an overall goal.
             </div>
             <div className="mt-2">
-              <button className="border rounded-3xl bg-sky-400 px-3 py-1">
+              <button className="border rounded-3xl bg-sky-400 px-3 py-1 xs:mb-10 sm:mb-0 ">
                 How we work
               </button>
             </div>
@@ -35,8 +35,8 @@ const Content: React.FC = () => {
         </div>
         <div>
           <div className="text-black my-10 text-5xl">What we do</div>
-          <div className="sm:grid grid-cols-3 gap-2">
-            <div className="bg-orange-600 row-span-2 px-10 py-10">
+          <div className="slg:grid grid-cols-3 gap-2">
+            <div className="bg-orange-600 slg:row-span-2 xmd:row-span-1 px-10 py-10">
               <div className="text-3xl">Consultation</div>
               <div className="mt-10 text-xl">
                 Empowering clients with innovative technology for digital
@@ -47,34 +47,37 @@ const Content: React.FC = () => {
                 Go to consulting
               </div>
             </div>
-            <div className="b row-span-3 ">
+            <div className="slg:row-span-3 xmd:row-span-2 ">
               <Image
                 src="/office.jpg"
                 width={500}
                 height={100}
+                className="xs:w-full"
                 style={{ height: "710px" }}
                 alt="Picture"
               />
             </div>
-            <div className=" row-span-2">
+            <div className=" slg:row-span-2 xmd:row-span-1">
               <Image
                 src="/office.jpg"
+                className="xs:w-full"
                 width={500}
                 height={100}
                 style={{ height: "350px" }}
                 alt="Picture"
               />
             </div>
-            <div className="b row-span-3 ">
+            <div className="slg:row-span-3 xmd:row-span-2 ">
               <Image
                 src="/office.jpg"
+                className="xs:w-full"
                 width={500}
                 height={100}
                 style={{ height: "710px" }}
                 alt="Picture"
               />
             </div>
-            <div className="bg-blue-800 row-span-1 px-10 py-10">
+            <div className="bg-blue-800 slg:row-span-1 xmd:row-span-1 px-10 py-10">
               <div className="text-3xl">Managed services</div>
               <div className="mt-10 text-xl">
                 Efficiently manage your IT needs prioritize your core business
@@ -84,7 +87,7 @@ const Content: React.FC = () => {
                 Go to managed services
               </div>
             </div>
-            <div className="bg-sky-500 row-span-2 px-10 py-10">
+            <div className="bg-sky-500 slg:row-span-2 xmd:row-span-1 px-10 py-10">
               <div className="text-3xl">Software Development</div>
               <div className="mt-10 text-xl">
                 Tailored solutions aligned with your business culture and goals
@@ -95,10 +98,11 @@ const Content: React.FC = () => {
                 Go to Software development
               </div>
             </div>
-            
-            <div className="row-span-3">
+
+            <div className="slg:row-span-3 xmd:row-span-1">
               <Image
                 src="/office.jpg"
+                className="xs:w-full"
                 width={500}
                 height={100}
                 style={{ height: "350px" }}
@@ -107,8 +111,8 @@ const Content: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="text-black px-24 mt-10 mb-10">
-          <div className="text-3xl">What client Says</div>
+        <div className="text-black sm:px-24 xs:px-0 mt-10 mb-10">
+          <div className="text-3xl text-center">What client Says</div>
           <div className="flex justify-between mt-10 text-center items-center	">
             <div>
               <LeftArrowIcon />

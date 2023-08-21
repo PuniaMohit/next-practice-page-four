@@ -18,6 +18,7 @@ const config: Config = {
     screens: {
       xs: "320px",
       xmd: "769px",
+      slg: "1025px",
       ...defaultTheme.screens,
     },
   },

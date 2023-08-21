@@ -10,12 +10,12 @@ const Banner: React.FC = () => {
       }}
     >
       <div className=" flex flex-col items-center mt-5 mb-5">
-        <div className="flex items-center mt-10 mb-10">
+        <div className="md:flex items-center mt-10 mb-10">
           <h1 className="we-font font-bold mr-2">WE</h1>
           <div className="flex flex-col">
-            <span className="text-6xl">INNOVATE</span>
-            <span className="text-6xl">ASSOCIATE</span>
-            <span className="text-6xl">INSPIRE</span>
+            <span className="xs:text-5xl md:text-6xl">INNOVATE</span>
+            <span className="xs:text-5xl md:text-6xl">ASSOCIATE</span>
+            <span className="xs:text-5xl md:text-6xl">INSPIRE</span>
           </div>
         </div>
       </div>
