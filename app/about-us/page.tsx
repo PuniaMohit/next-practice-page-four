@@ -4,6 +4,24 @@ import UnkownIcon from "../assets/svg/UnknownIcon";
 const Page: React.FC = () => {
   return (
     <div className="bg-white">
+      <div
+        className="h-4/5 bg-cover bg-center flex justify-center items-center text-white"
+        style={{
+          backgroundImage: `url('/Asia-business-meetings.jpg')`,
+        }}
+      >
+        <div
+          className="mt-10 mb-10"
+          style={{ marginTop: "200px", marginBottom: "200px" }}
+        >
+          <div className="text-3xl ml-5 w-4/12">
+            Providing The Best I.T. Solutions
+          </div>
+          <div className="text-xl ml-5 w-4/12">
+            Founded in 2023 in India, we provide end-to-end services that help businesses bring their technology vision to life and achieve their goals.
+          </div>
+        </div>
+      </div>
       <div className="px-20 pt-20">
         <div className="sm:flex text-black">
           <div className="xmd:grid grid-cols-2 gap-2 sm:w-2/5">
