@@ -31,16 +31,16 @@ const DesktopMenu: React.FC<DesktopMenuProps> = (props) => {
       </div>
       <div className="menu-items">
         {menuItems.map((menuItem: MenuItem, index: number) => (
-          <div key={index} className="lg:px-1 xs:px-0">
+          <div key={index} className="lg:px-1 lg:py-7 xs:px-0 font-bold cursor-pointer">
             <Link href={menuItem.link} className="py-1 px-4 text-black block">
               {menuItem.label}
             </Link>
           </div>
         ))}
-        <div className="lg:px-1 xs:px-0">
+        <div className="lg:px-1 xs:px-0 bg-blue-200 font-bold cursor-pointer">
           <Link
             href="/contact-us"
-            className="py-1 px-6 text-black block bg-blue-200 text-white"
+            className="px-6 py-7 text-black block text-white"
           >
             Contact Us
           </Link>
