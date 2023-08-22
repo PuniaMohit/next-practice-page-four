@@ -19,7 +19,7 @@ interface MenuItem {
 const DesktopMenu: React.FC<DesktopMenuProps> = (props) => {
   const { mobileView, setMobileView } = props;
   return (
-    <div className="bg-white flex items-center justify-between	">
+    <div className="bg-white flex items-center justify-between">
       <div>
         <Image src={logo} alt="Logo" className="w-20 h-20" />
       </div>

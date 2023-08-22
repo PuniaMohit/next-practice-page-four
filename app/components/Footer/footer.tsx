@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="flex sm:self-start xs:justify-center">
-        <div className="border-solid rounded-none border-2	py-2 px-2">
+        <div className="border-solid rounded-none border-2 py-2 px-2">
           <MessageIcon />
         </div>
         <div className="border-solid rounded-none border-2 ml-2 py-2 px-2">

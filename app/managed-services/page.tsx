@@ -1,18 +1,11 @@
 import Image from "next/image";
+import "./managed-services.css";
 
 const Page: React.FC = () => {
   return (
     <div className="bg-white">
-      <div
-        className="h-4/5 bg-cover bg-center flex justify-center items-center text-white"
-        style={{
-          backgroundImage: `url('/Asia-business-meetings.jpg')`,
-        }}
-      >
-        <div
-          className="mt-10 mb-10"
-          style={{ marginTop: "100px", marginBottom: "100px" }}
-        >
+      <div className="h-4/5 bg-cover bg-center flex justify-center items-center text-white managed-services-banner">
+        <div className="mt-24 mb-24">
           <div className="text-5xl ml-5 mb-5 w-4/12 font-bold">
             Managed Services
           </div>
@@ -45,7 +38,7 @@ const Page: React.FC = () => {
               src="/office.jpg"
               width={500}
               height={100}
-              style={{ height: "450px", width: "450px" }}
+              className="h-96 w-96"
               alt="Picture"
             />
           </div>

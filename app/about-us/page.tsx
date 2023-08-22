@@ -1,20 +1,12 @@
 import Image from "next/image";
 import UnkownIcon from "../assets/svg/UnknownIcon";
-import "./about-us.css"
+import "./about-us.css";
 
 const Page: React.FC = () => {
   return (
     <div className="bg-white">
-      <div
-        className="w-full h-4/5 bg-cover bg-center flex justify-center items-center text-white"
-        style={{
-          backgroundImage: `url('/Asia-business-meetings.jpg')`,
-        }}
-      >
-        <div
-          className="sm:mt-10 sm:mb-10 xs:mt-0 xs:mb-0"
-          style={{ marginTop: "100px", marginBottom: "100px" }}
-        >
+      <div className="w-full h-4/5 bg-cover bg-center flex justify-center items-center text-white picture">
+        <div className="sm:mt-24 sm:mb-24 xs:mt-0 xs:mb-0">
           <div className="text-3xl ml-5 w-4/12 font-bold">
             Providing The Best I.T. Solutions
           </div>
@@ -42,14 +34,14 @@ const Page: React.FC = () => {
                 src="/office.jpg"
                 width={500}
                 height={100}
-                className="second-image"
+                className="second-third-image"
                 alt="Picture"
               />
             </div>
             <div className="">
               <Image
                 src="/office.jpg"
-                className="third-image"
+                className="second-third-image"
                 width={500}
                 height={100}
                 alt="Picture"

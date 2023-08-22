@@ -7,10 +7,7 @@ const Content: React.FC = () => {
   return (
     <div className="bg-white pt-10">
       <div className="mx-5">
-        <div
-          className="md:flex xs:flex-none items-center sm:px-12 xs:px-0 xs:text-center sm:text-left"
-          style={{ justifyContent: "space-evenly" }}
-        >
+        <div className="md:flex xs:flex-none items-center sm:px-12 xs:px-0 xs:text-center sm:text-left justify-evenly">
           <div className="px-12 leading-8	">
             <div className="text-black text-5xl mt-2">Who we are</div>
             <div className="text-black mt-2">
@@ -47,33 +44,30 @@ const Content: React.FC = () => {
                 Go to consulting
               </div>
             </div>
-            <div className="slg:row-span-3 xmd:row-span-2 ">
+            <div className="slg:row-span-3 xmd:row-span-2">
               <Image
                 src="/office.jpg"
                 width={500}
                 height={100}
-                className="xs:w-full"
-                style={{ height: "710px" }}
+                className="xs:w-full main-pic"
                 alt="Picture"
               />
             </div>
-            <div className=" slg:row-span-2 xmd:row-span-1">
+            <div className="slg:row-span-2 xmd:row-span-1">
               <Image
                 src="/office.jpg"
-                className="xs:w-full"
+                className="xs:w-full small-pic"
                 width={500}
                 height={100}
-                style={{ height: "350px" }}
                 alt="Picture"
               />
             </div>
-            <div className="slg:row-span-3 xmd:row-span-2 ">
+            <div className="slg:row-span-3 xmd:row-span-2">
               <Image
                 src="/office.jpg"
-                className="xs:w-full"
+                className="xs:w-full main-pic"
                 width={500}
                 height={100}
-                style={{ height: "710px" }}
                 alt="Picture"
               />
             </div>
@@ -102,10 +96,9 @@ const Content: React.FC = () => {
             <div className="slg:row-span-3 xmd:row-span-1">
               <Image
                 src="/office.jpg"
-                className="xs:w-full"
+                className="xs:w-full small-pic"
                 width={500}
                 height={100}
-                style={{ height: "350px" }}
                 alt="Picture"
               />
             </div>
@@ -113,7 +106,7 @@ const Content: React.FC = () => {
         </div>
         <div className="text-black sm:px-24 xs:px-0 mt-10 mb-10">
           <div className="text-3xl text-center">What client Says</div>
-          <div className="flex justify-between mt-10 text-center items-center	">
+          <div className="flex justify-between mt-10 text-center items-center">
             <div>
               <LeftArrowIcon />
             </div>
@@ -140,16 +133,8 @@ const Content: React.FC = () => {
           </div>
         </div>
       </div>
-      <div
-        className="h-4/5 bg-cover bg-center flex items-center text-white"
-        style={{
-          backgroundImage: `url('/Asia-business-meetings.jpg')`,
-        }}
-      >
-        <div
-          className="mt-10 mb-10 ml-20"
-          style={{ marginTop: "100px", marginBottom: "100px" }}
-        >
+      <div className="h-4/5 bg-cover bg-center flex items-center text-white homepage-below-picture">
+        <div className="mt-24 mb-24 ml-20">
           <div className="text-3xl w-4/12 font-bold">
             Increasing the level of customer satisfaction in every management
           </div>

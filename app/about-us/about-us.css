@@ -1,27 +1,24 @@
-@media only screen and (max-width:1025px) {
-    .first-image {
-        height: 400px
-    }
-
-    .second-image {
-        height: 200px
-    }
-
-    .third-image {
-        height: 200px
-    }
+.picture{
+  background-image: url('/Asia-business-meetings.jpg');
 }
 
-@media only screen and (min-width:1025px) {
-    .first-image {
-        height: 600px
-    }
 
-    .second-image {
-        height: 300px
-    }
+@media only screen and (max-width: 1025px) {
+  .first-image {
+    height: 400px;
+  }
 
-    .third-image {
-        height: 300px
-    }
+  .second-third-image {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .first-image {
+    height: 600px;
+  }
+
+  .second-third-image {
+    height: 300px;
+  }
 }

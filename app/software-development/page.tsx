@@ -1,19 +1,12 @@
 import Image from "next/image";
 import UnkownIcon from "../assets/svg/UnknownIcon";
+import "./software-development.css";
 
 const Page: React.FC = () => {
   return (
     <div className="bg-white">
-      <div
-        className="h-4/5 bg-cover bg-center flex justify-center items-center text-white"
-        style={{
-          backgroundImage: `url('/Asia-business-meetings.jpg')`,
-        }}
-      >
-        <div
-          className="mt-10 mb-10"
-          style={{ marginTop: "100px", marginBottom: "100px" }}
-        >
+      <div className="h-4/5 bg-cover bg-center flex justify-center items-center text-white software-development-banner">
+        <div className="mt-24 mb-24">
           <div className="text-5xl ml-5 mb-5 w-4/12 font-bold">
             Software development
           </div>
@@ -29,7 +22,7 @@ const Page: React.FC = () => {
             <div className="text-black text-3xl">
               Software Engineering Services
             </div>
-            <div className="text-black mt-2 ">
+            <div className="text-black mt-2">
               <div className="mb-5 mt-5">
                 Synez technology offers a skilled team for end-to-end software
                 developement services covering backend to application, including
@@ -54,9 +47,9 @@ const Page: React.FC = () => {
           <div className="">
             <Image
               src="/office.jpg"
-              width={500}
-              height={100}
-              style={{ height: "450px", width: "450px" }}
+              width={200}
+              height={20}
+              className="w-96 h-96"
               alt="Picture"
             />
           </div>
