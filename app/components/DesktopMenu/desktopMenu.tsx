@@ -16,28 +16,23 @@ interface MenuItem {
   className?: string;
 }
 
-console.log(menuItems);
-
 const DesktopMenu: React.FC<DesktopMenuProps> = (props) => {
   const { mobileView, setMobileView } = props;
   return (
-    <div className="bg-white flex items-center">
-      <div
-        className="flex items-center w-full"
-        style={{ justifyContent: "space-between" }}
-      >
+    <div className="bg-white flex items-center justify-between">
+      <div>
         <Image src={logo} alt="Logo" className="w-20 h-20" />
       </div>
       <div
-        className="sm:visible md:invisible text-black"
+        className="sm:visible lg:invisible text-black"
         onClick={() => setMobileView(!mobileView)}
       >
         <HamburgerIcon />
       </div>
-      <div className="gap-4 menu-items">
+      <div className="menu-items">
         {menuItems.map((menuItem: MenuItem, index: number) => (
           <div key={index} className="lg:px-1 xs:px-0">
-            <Link href={menuItem.link} className="py-1 px-6 text-black block">
+            <Link href={menuItem.link} className="py-1 px-4 text-black block">
               {menuItem.label}
             </Link>
           </div>

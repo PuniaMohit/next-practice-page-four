@@ -1,3 +1,15 @@
 .shadow-box {
     box-shadow: 10px -10px 0 5px blue;
 }
+
+.homepage-below-picture {
+    background-image: url('/Asia-business-meetings.jpg');
+}
+
+.main-pic {
+    height: 710px;
+}
+
+.small-pic {
+    height: 350px
+}

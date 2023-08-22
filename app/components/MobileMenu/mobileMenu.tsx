@@ -10,7 +10,7 @@ interface MenuItem {
 
 const MobileMenu = () => {
   return (
-    <div className="sm:flex-none xs:visible sm:invisible md:flex ml-auto gap-4">
+    <div className="ml-auto gap-4">
       {menuItems.map((menuItem: MenuItem, index: number) => (
         <div key={index}>
           <Link
