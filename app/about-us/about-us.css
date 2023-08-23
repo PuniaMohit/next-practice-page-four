@@ -1,7 +1,21 @@
-.picture{
+.picture {
   background-image: url('/Asia-business-meetings.jpg');
+  position: relative;
+
 }
 
+.picture::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.picture .about-us-picture-content {
+  color: white;
+  position: relative;
+  z-index: 1;
+}
 
 @media only screen and (max-width: 1025px) {
   .first-image {
@@ -15,7 +29,7 @@
 
 @media only screen and (min-width: 1025px) {
   .first-image {
-    height: 600px;
+    height: 610px;
   }
 
   .second-third-image {

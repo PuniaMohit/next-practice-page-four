@@ -38,17 +38,17 @@ const Footer: React.FC = () => {
           </div>
           <div className="mb-5 flex">
             <div className="font-bold">Phone:</div>
-            <div className="xmd:ml-7 xs:ml-2"> +0120 3112279, +01203112280</div>
+            <div className="xmd:ml-7 xs:ml-5"> +0120 3112279, +01203112280</div>
           </div>
           <div className="mb-5 flex">
             <div className="font-bold">Mobile:</div>
-            <div className="xmd:ml-7 xs:ml-2">
+            <div className="xmd:ml-7 xs:ml-5">
               +91 9711311790 +91 7290 040306
             </div>
           </div>
           <div className="mb-5 flex">
             <div className="font-bold">Email:</div>
-            <div className="xmd:ml-8 xs:ml-2"> hr@innotechteam.in</div>
+            <div className="xmd:ml-10 xs:ml-8"> hr@innotechteam.in</div>
           </div>
         </div>
         <div className="flex sm:self-start xs:justify-center">

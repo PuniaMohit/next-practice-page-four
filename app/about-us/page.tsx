@@ -6,11 +6,12 @@ const Page: React.FC = () => {
   return (
     <div className="bg-white">
       <div className="w-full h-4/5 bg-cover bg-center flex justify-center items-center text-white picture">
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-60"></div>
         <div className="sm:mt-24 sm:mb-24 xs:mt-0 xs:mb-0">
-          <div className="text-3xl ml-5 w-4/12 font-bold">
+          <div className="text-3xl ml-5 w-4/12 about-us-picture-content font-extrabold	">
             Providing The Best I.T. Solutions
           </div>
-          <div className="text-xl ml-5 w-4/12">
+          <div className="text-xl ml-5 w-4/12 about-us-picture-content">
             Founded in 2023 in India, we provide end-to-end services that help
             businesses bring their technology vision to life and achieve their
             goals.

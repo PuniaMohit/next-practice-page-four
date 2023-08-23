@@ -40,10 +40,10 @@ const DesktopMenu: React.FC<DesktopMenuProps> = (props) => {
             </Link>
           </div>
         ))}
-        <div className="lg:px-1 xs:px-0 bg-blue-200 font-bold cursor-pointer">
+        <div className="lg:px-1 xs:px-0 bg-sky-500 font-bold cursor-pointer">
           <Link
             href="/contact-us"
-            className="px-6 py-7 text-black block text-white"
+            className="pl-2 pr-16 py-7 text-black block text-white"
           >
             Contact Us
           </Link>

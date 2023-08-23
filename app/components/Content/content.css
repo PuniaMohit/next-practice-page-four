@@ -16,8 +16,12 @@
   z-index: 1;
 }
 
+.yellow-color-text{
+  color: #ffa31a;
+}
+
 .shadow-box {
-  box-shadow: 10px -10px 0 5px blue;
+  box-shadow: 10px -10px 0 5px darkblue;
 }
 
 @media (min-width:1025px) {
