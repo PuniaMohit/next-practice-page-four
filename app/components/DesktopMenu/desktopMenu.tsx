@@ -24,14 +24,17 @@ const DesktopMenu: React.FC<DesktopMenuProps> = (props) => {
         <Image src={logo} alt="Logo" className="w-20 h-20" />
       </div>
       <div
-        className="sm:visible lg:invisible text-black"
+        className="sm:visible lg:invisible text-black xs:mr-5"
         onClick={() => setMobileView(!mobileView)}
       >
         <HamburgerIcon />
       </div>
       <div className="menu-items">
         {menuItems.map((menuItem: MenuItem, index: number) => (
-          <div key={index} className="lg:px-1 lg:py-7 xs:px-0 font-bold cursor-pointer">
+          <div
+            key={index}
+            className="lg:px-1 lg:py-7 xs:px-0 font-bold cursor-pointer"
+          >
             <Link href={menuItem.link} className="py-1 px-4 text-black block">
               {menuItem.label}
             </Link>

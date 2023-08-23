@@ -26,25 +26,29 @@ const Footer: React.FC = () => {
           <div className="mb-5">MANAGED SERVICES</div>
           <div className="mb-5">CONSULTING</div>
         </div>
-        <div className="md:w-1/4 xs:text-center sm:text-left">
-          <div className="mb-5 text-2xl font-bold">Keep in touch</div>
+        <div className="md:w-1/4  sm:text-left">
+          <div className="mb-5 text-2xl font-bold text-center">
+            Keep in touch
+          </div>
           <div className="mb-5 flex">
             <div className="font-bold">Address:</div>
-            <div className="ml-5">
+            <div className="xmd:ml-5 xs:ml-2">
               C56/30 Sector 62, Noida 201307, Uttar Pradesh, India
             </div>
           </div>
           <div className="mb-5 flex">
             <div className="font-bold">Phone:</div>
-            <div className="ml-7"> +0120 3112279, +01203112280</div>
+            <div className="xmd:ml-7 xs:ml-2"> +0120 3112279, +01203112280</div>
           </div>
           <div className="mb-5 flex">
             <div className="font-bold">Mobile:</div>
-            <div className="ml-7">+91 9711311790 +91 7290 040306</div>
+            <div className="xmd:ml-7 xs:ml-2">
+              +91 9711311790 +91 7290 040306
+            </div>
           </div>
           <div className="mb-5 flex">
             <div className="font-bold">Email:</div>
-            <div className="ml-8"> hr@innotechteam.in</div>
+            <div className="xmd:ml-8 xs:ml-2"> hr@innotechteam.in</div>
           </div>
         </div>
         <div className="flex sm:self-start xs:justify-center">
@@ -56,7 +60,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
-      <hr className="opacity-50"/>
+      <hr className="opacity-50 mt-3" />
       <div className="mt-5">Copyright @ 2023 Synez Technologies</div>
     </div>
   );

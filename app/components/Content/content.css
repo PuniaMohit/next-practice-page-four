@@ -1,32 +1,51 @@
 .homepage-below-picture {
-    background-image: url('/Asia-business-meetings.jpg');
-    position: relative;
-  }
-  
-  .homepage-below-picture::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.5); 
-  }
-  
-  /* Apply color and opacity to the specific text element */
-  /* .homepage-below-picture .written-text {
-    color: white;
-  } */
-  
-  .shadow-box {
-    box-shadow: 10px -10px 0 5px blue;
-  }
-  
+  background-image: url('/Asia-business-meetings.jpg');
+  position: relative;
+}
+
+.homepage-below-picture::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.homepage-below-picture .text-3xl {
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.shadow-box {
+  box-shadow: 10px -10px 0 5px blue;
+}
+
+@media (min-width:1025px) {
+
   .main-pic {
-    height: 75%;
+    height: 600px;
   }
-  
+
   .small-pic {
-    height: 50%px;
+    height: 400px;
   }
+
   .smallest-pic {
-    height: 25%;
+    height: 200px;
   }
-  
+}
+
+
+@media (min-width:769px) and (max-width:1024px) {
+  .main-pic {
+    height: 1000px;
+  }
+
+  .small-pic {
+    height: 520px;
+  }
+
+  .smallest-pic {
+    height: 430px;
+  }
+}

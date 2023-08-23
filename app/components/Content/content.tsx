@@ -32,7 +32,7 @@ const Content: React.FC = () => {
         </div>
         <div className="px-12">
           <div className="text-black my-10 text-5xl">What we do</div>
-          <div className="slg:grid grid-cols-3 gap-5">
+          <div className="xmd:grid grid-cols-3 gap-5">
             <div className="bg-orange-600 slg:row-span-2 xmd:row-span-1 px-10 py-10">
               <div className="text-3xl">Consultation</div>
               <div className="mt-10 text-xl">
@@ -44,7 +44,7 @@ const Content: React.FC = () => {
                 Go to consulting
               </div>
             </div>
-            <div className="slg:row-span-3 xmd:row-span-2">
+            <div className="slg:row-span-3 xmd:row-span-3">
               <Image
                 src="/office.jpg"
                 width={500}
@@ -62,7 +62,7 @@ const Content: React.FC = () => {
                 alt="Picture"
               />
             </div>
-            <div className="slg:row-span-3 xmd:row-span-2">
+            <div className="slg:row-span-3 slg:row-start-3	xmd:row-span-3 xmd:row-start-2">
               <Image
                 src="/office.jpg"
                 className="xs:w-full main-pic"
@@ -71,7 +71,7 @@ const Content: React.FC = () => {
                 alt="Picture"
               />
             </div>
-            <div className="bg-sky-500 slg:row-span-2 xmd:row-span-1 px-10 py-10">
+            <div className="bg-sky-500 slg:row-span-2 slg:row-start-4 xmd:row-span-1 xmd:row-start-4 px-10 py-10">
               <div className="text-3xl">Software Development</div>
               <div className="mt-10 text-xl">
                 Tailored solutions aligned with your business culture and goals
@@ -82,7 +82,7 @@ const Content: React.FC = () => {
                 Go to Software development
               </div>
             </div>
-            <div className="bg-blue-800 slg:row-span-2 xmd:row-span-1 px-10 py-10">
+            <div className="bg-blue-800 slg:row-span-2 xmd:row-span-2 px-10 py-10">
               <div className="text-3xl">Managed services</div>
               <div className="mt-10 text-xl">
                 Efficiently manage your IT needs prioritize your core business
@@ -92,7 +92,7 @@ const Content: React.FC = () => {
                 Go to managed services
               </div>
             </div>
-            <div className="slg:row-span-2 xmd:row-span-1">
+            <div className="slg:row-span-2 xmd:row-span-1 xmd:row-start-4">
               <Image
                 src="/office.jpg"
                 className="xs:w-full small-pic"
