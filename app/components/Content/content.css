@@ -1,15 +1,51 @@
-.shadow-box {
-    box-shadow: 10px -10px 0 5px blue;
-}
-
 .homepage-below-picture {
-    background-image: url('/Asia-business-meetings.jpg');
+  background-image: url('/Asia-business-meetings.jpg');
+  position: relative;
 }
 
-.main-pic {
-    height: 710px;
+.homepage-below-picture::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.small-pic {
-    height: 350px
+.homepage-below-picture .text-3xl {
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.shadow-box {
+  box-shadow: 10px -10px 0 5px blue;
+}
+
+@media (min-width:1025px) {
+
+  .main-pic {
+    height: 600px;
+  }
+
+  .small-pic {
+    height: 400px;
+  }
+
+  .smallest-pic {
+    height: 200px;
+  }
+}
+
+
+@media (min-width:769px) and (max-width:1024px) {
+  .main-pic {
+    height: 1000px;
+  }
+
+  .small-pic {
+    height: 520px;
+  }
+
+  .smallest-pic {
+    height: 430px;
+  }
 }

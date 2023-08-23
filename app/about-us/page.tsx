@@ -101,7 +101,7 @@ const Page: React.FC = () => {
           </div>
         </div>
         <div>
-          <div className="text-3xl my-10 text-black xs:text-center xm:text-left">
+          <div className="text-3xl my-10 text-black xs:text-center xmd:text-left">
             Our Values
           </div>
           <div className="sm:flex sm:flex-wrap xmd:flex-nowrap">

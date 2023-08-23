@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "./managed-services.css";
+import UnkownIcon from "../assets/svg/UnknownIcon";
 
 const Page: React.FC = () => {
   return (
@@ -41,6 +42,53 @@ const Page: React.FC = () => {
               className="h-96 w-96"
               alt="Picture"
             />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="text-3xl my-10 text-black xs:text-center xmd:text-left">
+          Our Values
+        </div>
+        <div className="sm:flex sm:flex-wrap xmd:flex-nowrap">
+          <div className="bg-sky-500 py-10 sm:px-10 xs:px-5 ml-2">
+            <div className="mb-7">
+              <UnkownIcon />
+            </div>
+            <div className="mb-5 text-2xl">Transparency</div>
+            <div>
+              Maintaining utmost clarity throughout our process is key to
+              delivering premium quialtiy results
+            </div>
+          </div>
+          <div className="bg-blue-500 py-10 sm:px-10 xs:px-5 ml-2">
+            <div className="mb-7">
+              <UnkownIcon />
+            </div>
+            <div className="mb-5 text-2xl">Innovation</div>
+            <div>
+              We leverage cutting-edge technologies to pioneer furturistic
+              solutions, transforming your ideas into tangible reality.
+            </div>
+          </div>
+          <div className="bg-sky-500 py-10 sm:px-10 xs:px-5 ml-2">
+            <div className="mb-7">
+              <UnkownIcon />
+            </div>
+            <div className="mb-5 text-2xl">Collabration</div>
+            <div>
+              Our Collabaration approach, uniting technologies experts and
+              business teams ensures we meet your goals
+            </div>
+          </div>
+          <div className="bg-blue-500 py-10 sm:px-10 xs:px-5 ml-2">
+            <div className="mb-7">
+              <UnkownIcon />
+            </div>
+            <div className="mb-5 text-2xl">Expertise</div>
+            <div>
+              With a seamless integration of expertise and innovation, we
+              develop and design your digital products to prefection.
+            </div>
           </div>
         </div>
       </div>
