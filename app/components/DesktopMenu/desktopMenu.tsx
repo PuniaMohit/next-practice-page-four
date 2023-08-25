@@ -35,7 +35,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = (props) => {
             key={index}
             className="lg:px-1 lg:py-7 xs:px-0 font-bold cursor-pointer"
           >
-            <Link href={menuItem.link} className="py-1 px-4 text-black block">
+            <Link href={menuItem.link} className="py-1 slg:px-4 xmd:px-1 text-black block">
               {menuItem.label}
             </Link>
           </div>
