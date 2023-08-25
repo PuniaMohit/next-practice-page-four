@@ -7,7 +7,7 @@ const Content: React.FC = () => {
   return (
     <div className="bg-white pt-10">
       <div className="mx-5">
-        <div className="md:flex xs:flex-none items-center sm:px-12 xs:px-0 xs:text-center sm:text-left justify-evenly">
+        <div className="md:flex xs:flex-none items-center sm:px-12 xs:px-0 xs:text-center sm:text-left justify-evenly pb-10">
           <div className="px-12 leading-8">
             <div className="text-black text-5xl mt-2">Who we are</div>
             <div className="text-black mt-2">
@@ -92,7 +92,7 @@ const Content: React.FC = () => {
                 Go to managed services
               </div>
             </div>
-            <div className="slg:row-span-2 xmd:row-span-1 xmd:row-start-4">
+            <div className="slg:row-span-2 slg:row-start-4 xmd:row-span-1 xmd:row-start-4">
               <Image
                 src="/office.jpg"
                 className="xs:w-full small-pic"
@@ -118,7 +118,7 @@ const Content: React.FC = () => {
                 rerum, ullam facilis eveniet magnam? Autem earum reprehenderit
                 non!
               </div>
-              <div className="mt-10 text-yellow-600">
+              <div className="mt-10 yellow-color-text">
                 <div>John Smith </div> <div>CEO of ABC</div>
               </div>
               <div className="mt-10">

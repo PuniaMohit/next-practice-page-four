@@ -1,16 +1,17 @@
 interface UnkownIconProps {
-  size?: string; // Define the size prop
+  size?: string;
+  color?: string;
 }
 
 const UnkownIcon: React.FC<UnkownIconProps> = (props: any) => {
-  const { size } = props;
+  const { size, color } = props;
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
       strokeWidth={1.5}
-      stroke="currentColor"
+      stroke={color ? color : "currentColor"}
       className={size ? size : "w-6 h-6"}
     >
       <path
